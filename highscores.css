@@ -1,0 +1,26 @@
+#finalScore {
+	align-items: center;
+}
+
+#highScoresList {
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 4rem;
+	display: grid;
+	grid-template-columns: [Name Score]repeat(2, 2fr);
+	column-gap: 40em;
+	column-rule: 4px double #ff00ff;
+}
+
+.high-score {
+	font-size: 2.8rem;
+	margin-bottom: 0.5rem;
+}
+
+li {
+	font-size: 2.8rem;
+}
+
+.high-score:hover {
+	transform: scale(1.025);
+}
